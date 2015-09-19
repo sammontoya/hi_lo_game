@@ -1,0 +1,45 @@
+@@ -1,44 +0,0 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="CSS/guessing_game.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/guessing_game.js"></script>
+
+    <title>Guessing Game</title>
+  </head>
+  <body>
+    <div id = "main_display" >
+      <div id = "about_game" class = "row">
+        <h1 id = "title">Guessing Game</h1>
+        <p id = "instructions">Pick a number between <strong>1</strong> and <strong>100</strong>. Type it in the provided box. <br> The computer will tell you whether your guess is too high or too low. <br> After 5 guesses, you will lose.</p>
+        <div id = "guess_group" class ="row col-md-3">
+          <div id = "guessInputGroup">
+            <input type="text" class="" id="guessNum" placeholder="Enter Your Number">
+            <button class="btn" id="enterGuess" type="button">Guess</button>
+          </div>
+        </div>
+      </div>
+
+      <div id = "guess_info" class = "row col-md-8">
+        <h2 id= "about_your_guess"><span class = "red">Follow Directions!</span></h2>
+        <h3 id="number_attempts"></h3>
+        <div id="endGameButtons">
+              <button class="btn" id="reloadPage" type="button">Guess Again!</button>
+              <button class="btn" id="overThis" type="button">I'm Over This</button>
+              <p id= "you_lose"></p>
+        </div>
+      </div>
+
+      <div id="endGameButtons">
+            <button class="btn" id="reloadPage" type="button">Guess Again!</button>
+            <button class="btn" id="overThis" type="button">I'm Over This</button>
+            <p id= "you_lose"></p>
+      </div>
+
+      <div id = "end_display">
+        <p id = "end_text"><strong>GO AWAY THEN!</strong></p>
+      </div>
+</div>
+  </body>

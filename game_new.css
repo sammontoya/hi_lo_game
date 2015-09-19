@@ -1,0 +1,71 @@
+
+#endGameButtons {
+  display: none;
+}
+
+#end_display {
+  display: none;
+}
+#main_display{
+  margin: 5px;
+}
+#about_game {
+  background-color: rgba(130, 103, 228, .75);
+  padding:20px;
+  width: 65%;
+  text-align: justify;
+  border-radius: 15px;
+  border: #8267E4 5px solid;
+  margin: 3%;
+}
+
+#title {
+  text-align: right;
+  padding-right:5px;
+  color: #C2C2C2;
+}
+
+#instructions {
+ color: #fff;
+
+}
+
+#enterGuess {
+  color:#8267E4;
+  background-color: #fff;
+  border-radius: 50px;
+  border: #8267E4 2px solid;
+  margin-top: 15px;
+
+}
+#end_text {
+  color: red;
+  font-size: 70px;
+  text-align: center;
+}
+.red {
+  color: red;
+  font-size: 1.75em;
+}
+
+#guess_info {
+  display: none;
+  background-color: #8267E4;
+  border-radius: 50px;
+  border: #8267E4 2px solid;
+  color: white;
+  padding: 25px;
+  margin-left: 5%;
+}
+
+#bigGuess  {
+  color: #C2C2C2;
+  font-size: 1.75em;
+}
+.youwin {
+  color: #C2C2C2;
+  font-size: 2em;
+}
+strong {
+  font-size:1.5em;
+}
