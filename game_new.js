@@ -1,4 +1,3 @@
-@@ -1,66 +0,0 @@
 $(document).ready(function() {
 
   // var numAndCompDiff = function(x, y) {
